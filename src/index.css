@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.App{
+  background-image: url(../public/light.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.Todoo{
+  color: black;
+  font-weight: bold;
+}
+
+.input1{
+  width:25%;
+  height: 6.5vh;
+  
+ border: none;
+  outline: none;
+}
+.input6{
+  width:25%;
+  height: 7vh;
+ 
+  background-color: black;
+  color: white;
+ border: none;
+  outline: none;
+}
+.checked{
+  text-decoration: line-through;
+  color: grey;
+  font-weight: 400;
+}
+.btn1{
+
+  width: 10%;
+  height: 1.7rem;
+  
+}
+.btn-tick{
+  background-color: #4537BD;
+  border: none;
+}
+
+.input-text{
+  padding-top: 15px;
+}
+.btn6{
+  background-color: #4537BD;
+  border: none;
+  display: flex;
+  flex-flow: column;
+}
+
+.btn-delete{
+  background-color: #4537BD;
+  border: none;
+}
+.non-check{
+  text-decoration: none;
+}
+.add{
+  padding: 5px;
+  color: white;
+  background-color: transparent;
+  font-size: large;
+  font-weight: 900;
+  border: 2px solid;
+  border-color: #4537BD;
+}
+.input2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.d-play{
+ display: flex;
+ gap: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.input-dark{
+  background-color: black;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width:29%;
+  height: 6.5vh;
+  margin-top: 10px;
+  padding-top: 12px;
+  border: none;
+  border-color: #4537BD;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  outline: none;
+}
+.hr-line{
+  border: 2px solid;
+  border-color: #4537BD;
+}
+
+.input4{
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width:29%;
+  height: 6.5vh;
+  margin-top: 10px;
+  padding-top: 12px;
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: small;
+  font-weight: bold;
+  outline: none;
+  
+}
+.span-pending{
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+.div-display{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.btn-t{
+  background-color: #4537BD;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.span-pend{
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.non-check{
+  text-decoration: none;
+}
+.darktheme{
+  background-color: black;
+  color: white;
+}
+.icon{
+  width: 100%;
+  height: 6vh;
+  padding-left: 200px;
+}
+.btn-mode{
+  background-color: transparent;
+  border: none;
+
+}
+.img2{
+  background-color: transparent;
+  border: none;
+  width: 100px;
+  height: 10vh;
+}
+.input-text{
+  margin-top: -4px;
+}
+
+
